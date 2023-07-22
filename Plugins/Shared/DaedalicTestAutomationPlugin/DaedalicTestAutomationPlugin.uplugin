@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1.0",
+	"FriendlyName": "Daedalic Test Automation Plugin",
+	"Description": "Facilitates setting up integration test suites with Gauntlet.",
+	"Category": "Daedalic Entertainment",
+	"CreatedBy": "Daedalic Entertainment GmbH",
+	"CreatedByURL": "https://www.daedalic.com/",
+	"DocsURL": "https://github.com/DaedalicEntertainment/ue4-test-automation",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/DaedalicEntertainment/ue4-test-automation/issues",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "Gauntlet",
+			"Enabled": true
+		}
+	]
+}

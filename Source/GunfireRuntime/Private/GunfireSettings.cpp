@@ -1,0 +1,63 @@
+#include "GunfireSettings.h"
+
+UGunfireSettings::UGunfireSettings() {
+    this->GroundChannel = ECC_GameTraceChannel5;
+    this->WaterChannel = ECC_WorldStatic;
+    this->bUseComplexCollisionForWaterSurfaceTraces = true;
+    this->WaterObjectTypes.AddDefaulted(1);
+    this->ProjectileChannel = ECC_GameTraceChannel2;
+    this->AOEChannel = ECC_GameTraceChannel6;
+    this->PawnChannel = ECC_GameTraceChannel8;
+    this->SpecialCollisionChannel = ECC_GameTraceChannel16;
+    this->CameraChannel = ECC_Camera;
+    this->WallChannel = ECC_Visibility;
+    this->WaterSurfaceType = SurfaceType22;
+    this->bLoadTemplateSublevels = true;
+    this->SublevelsKeywordsToIgnore.AddDefaulted(1);
+    this->HitPauseMode = EHitPauseMode::AnyDamage;
+    this->bAutoMarkDamageAsResisted = true;
+    this->ResistedDamageThreshold = 0.50f;
+    this->MaximumDamageReductionPerStat = 0.80f;
+    this->MinimumTotalDamageReductionScalar = 0.20f;
+    this->AITargetingAICooldownScale = 0.50f;
+    this->TargetWeaponPhantomFrameTime = 0.01f;
+    this->WeaponPhantomIgnoreDelay = 0.50f;
+    this->bPlayForceFeedbackOnEnvironmentHits = true;
+    this->bPlayCameraShakeOnEnvironmentHits = true;
+    this->ReloadInteractiveMode = 6;
+    this->MinimumTimeDilaton = 0.01f;
+    this->TimeDilationStepSize = 0.40f;
+    this->KeyboardAndMouseAimAdjustScale = 0.50f;
+    this->KeyboardAndMouseSnapToTargetScale = 0.00f;
+    this->GlobalTargetableRadiusScale = 1.00f;
+    this->GlobalSnapRadiusScale = 1.00f;
+    this->FalloffDamagePenalty = 0.20f;
+    this->GlobalSwayScale = 1.00f;
+    this->BreakableClasses.AddDefaulted(1);
+    this->MaxDebrisPieces = 250;
+    this->DebrisCullingMethod = EDebrisCullingMethod::CullByTime;
+    this->bUsesUniqueAimSensitivity = true;
+    this->bUsesUniqueScopeSensitivity = true;
+    this->AreaFactor = 3.00f;
+    this->NavLinkFactor = 5.00f;
+    this->MaxNodesToOccupy = -1;
+    this->PenaltyBase = 1.70f;
+    this->AmbientPriorityPolicy = EAmbientPriorityPolicy::ManualLevelDepth;
+    this->MinimapCaptureOffset = 45800.00f;
+    this->FullscreenMinimapOverrideNavKeys.AddDefaulted(8);
+    this->SoftCollisionAbsoluteWeightDifference = 500.00f;
+    this->bDoNotifyRateOptimzations = false;
+    this->GlobalNotifyMaximumRate = 10;
+    this->bEnableMeshActivationOptimizations = true;
+    this->MeshActivationLingerTime = 1.00f;
+    this->MeshActivationBoneOnlyLingerTime = 0.20f;
+    this->GlobalObjectPoolCull = 12;
+    this->Challenges.AddDefaulted(2);
+    this->DirectionalAnimationFilter = EDirectionalAnimationFilter::DefaultToRight;
+    this->LeftSideTagName = TEXT("FootL");
+    this->RightSideTagName = TEXT("FootR");
+    this->MiddleSideTagName = TEXT("FootM");
+    this->MaxAimSnapAngle = 20.00f;
+    this->MaxPiercingTargets = 16;
+}
+

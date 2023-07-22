@@ -1,0 +1,65 @@
+using UnrealBuildTool;
+
+public class GunfireRuntime : ModuleRules {
+    public GunfireRuntime(ReadOnlyTargetRules Target) : base(Target) {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        bLegacyPublicIncludePaths = false;
+        ShadowVariableWarningLevel = WarningLevel.Warning;
+        
+        PublicDependencyModuleNames.AddRange(new string[] {
+            "AIModule",
+            "AkAudio",
+            "AnimGraphRuntime",
+            "AnimationCore",
+            "AudioExtensions",
+            "AudioLinkCore",
+            "AudioMixer",
+            "AudioPlatformConfiguration",
+            "BinkMediaPlayer",
+            "Chaos",
+            "ChaosCloth",
+            "CinematicCamera",
+            "ClothingSystemRuntimeCommon",
+            "ClothingSystemRuntimeInterface",
+            "Constraints",
+            "Core",
+            "CoreOnline",
+            "CoreUObject",
+            "DeveloperSettings",
+            "Engine",
+            "EnhancedInput",
+            "GameplayTags",
+            "GameplayTasks",
+            "Gauntlet",
+            "GunfireOnlineModule",
+            "GunfireSaveSystem",
+            "GunfireTechRequirements",
+            "InputCore",
+            "IrisCore",
+            "Landscape",
+            "LevelSequence",
+            "MediaAssets",
+            "MediaUtils",
+            "MeshDescription",
+            "MovieScene",
+            "MovieSceneTracks",
+            "NavigationSystem",
+            "NetCore",
+            "Niagara",
+            "NiagaraAnimNotifies",
+            "NiagaraCore",
+            "NiagaraShader",
+            "OnlineSubsystem",
+            "OnlineSubsystemUtils",
+            "PacketHandler",
+            "PhysicsCore",
+            "PropertyPath",
+            "Slate",
+            "SlateCore",
+            "StaticMeshDescription",
+            "TypedElementFramework",
+            "TypedElementRuntime",
+            "UMG",
+        });
+    }
+}

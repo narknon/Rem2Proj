@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.6.1",
+	"FriendlyName": "UIPF - Unified Interactive Physical Foliage",
+	"Description": "Delivers beautiful and efficient interactive foliage to any game",
+	"Category": "egray.io",
+	"CreatedBy": "Elliot Gray",
+	"CreatedByURL": "https://egray.io",
+	"DocsURL": "https://egray.io/uipfdocs",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2dbd630736494432acebf25a59a98b77",
+	"SupportURL": "https://egray.io/uipfdocs",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UIPF",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
