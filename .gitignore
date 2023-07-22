@@ -148,3 +148,27 @@ obj/
 # Explcitly ignore Mac DS_Store files, regardless of where they are
 .DS_Store
 
+Windows/Manifest_NonUFSFiles_Win64.txt
+Windows/Manifest_DebugFiles_Win64.txt
+Windows/Engine/Content/SlateDebug/Fonts/LastResort.tps
+Platforms/HoloLens/Config/HoloLensEngine.ini
+Binaries/Win64/tbb12.dll
+Binaries/Win64/tbb.dll
+Binaries/Win64/Remnant2-Win64-Shipping.target
+Binaries/Win64/Remnant2-Win64-Shipping.lib
+Binaries/Win64/Remnant2-Win64-Shipping.exp
+Binaries/Win64/Remnant2-Win64-Shipping.exe
+Binaries/Win64/Remnant2-Win64-DebugGame.target
+Binaries/Win64/Remnant2-Win64-DebugGame.lib
+Binaries/Win64/Remnant2-Win64-DebugGame.exp
+Binaries/Win64/Remnant2-Win64-DebugGame.exe
+Binaries/Win64/OpenImageDenoise.dll
+Binaries/Win64/boost_thread-mt-x64.dll
+Binaries/Win64/boost_system-mt-x64.dll
+Binaries/Win64/boost_regex-mt-x64.dll
+Binaries/Win64/boost_python39-mt-x64.dll
+Binaries/Win64/boost_program_options-mt-x64.dll
+Binaries/Win64/boost_iostreams-mt-x64.dll
+Binaries/Win64/boost_filesystem-mt-x64.dll
+Binaries/Win64/boost_chrono-mt-x64.dll
+Binaries/Win64/boost_atomic-mt-x64.dll
