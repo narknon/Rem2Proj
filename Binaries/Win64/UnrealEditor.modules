@@ -1,0 +1,8 @@
+{
+	"BuildId": "25360045",
+	"Modules": 
+	{
+		"GunfireRuntime": "UnrealEditor-GunfireRuntime.dll",
+		"Remnant": "UnrealEditor-Remnant.dll"
+	}
+}

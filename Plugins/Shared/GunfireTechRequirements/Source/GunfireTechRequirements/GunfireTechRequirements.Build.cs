@@ -15,7 +15,6 @@ public class GunfireTechRequirements : ModuleRules {
             "AudioMixer",
             "AudioPlatformConfiguration",
             "Chaos",
-            "ChaosCloth",
             "ClothingSystemRuntimeCommon",
             "ClothingSystemRuntimeInterface",
             "Constraints",

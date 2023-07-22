@@ -4,7 +4,7 @@
 
 UENUM()
 enum class EHoudiniRampInterpolationType : int8 {
-    InValid = -0x1,
+    InValid = -1,
     CONSTANT,
     LINEAR,
     CATMULL_ROM,

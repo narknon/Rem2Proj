@@ -15,7 +15,6 @@ public class PrefabricatorRuntime : ModuleRules {
             "AudioMixer",
             "AudioPlatformConfiguration",
             "Chaos",
-            "ChaosCloth",
             "ClothingSystemRuntimeCommon",
             "ClothingSystemRuntimeInterface",
             "Constraints",

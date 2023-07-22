@@ -1,11 +1,11 @@
 #include "DamageTypeGunfire.h"
 #include "Templates/SubclassOf.h"
 
-TSubclassOf<UDamageClass> UDamageTypeGunfire::GetDamageSubclass(TSubclassOf<UDamageType> DamageType, TSubclassOf<UDamageClass> ParentClass) const {
+TSubclassOf<UDamageClass> UDamageTypeGunfire::GetDamageSubclass(TSubclassOf<UDamageType> DamageType, TSubclassOf<UDamageClass> ParentClass) {
     return NULL;
 }
 
-TArray<TSubclassOf<UDamageClass>> UDamageTypeGunfire::GetDamageClassesForType(TSubclassOf<UDamageType> DamageType) const {
+TArray<TSubclassOf<UDamageClass>> UDamageTypeGunfire::GetDamageClassesForType(TSubclassOf<UDamageType> DamageType) {
     return TArray<TSubclassOf<UDamageClass>>();
 }
 

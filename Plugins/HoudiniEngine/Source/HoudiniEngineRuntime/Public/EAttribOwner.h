@@ -4,7 +4,7 @@
 
 UENUM()
 enum class EAttribOwner : int8 {
-    Invalid = -0x1,
+    Invalid = -1,
     Vertex,
     Point,
     Prim,

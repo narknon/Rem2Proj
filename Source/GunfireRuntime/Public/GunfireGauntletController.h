@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class GUNFIRERUNTIME_API UGunfireGauntletController : public UGauntletTestController {
     GENERATED_BODY()
 public:
-    UGunfireGauntletController();
+    UGunfireGauntletController(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void StopTesting();

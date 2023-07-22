@@ -8,7 +8,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable, MinimalAPI)
-class UMovieSceneEquipmentTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class UMovieSceneEquipmentTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

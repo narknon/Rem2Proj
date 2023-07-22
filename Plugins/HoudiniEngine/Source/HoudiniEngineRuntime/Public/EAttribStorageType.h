@@ -4,7 +4,7 @@
 
 UENUM()
 enum class EAttribStorageType : int8 {
-    Invalid = -0x1,
+    Invalid = -1,
     INT,
     INT64,
     FLOAT,

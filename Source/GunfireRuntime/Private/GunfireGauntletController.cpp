@@ -12,6 +12,6 @@ void UGunfireGauntletController::StartTesting() {
 void UGunfireGauntletController::StartProfiling() {
 }
 
-UGunfireGauntletController::UGunfireGauntletController() {
+UGunfireGauntletController::UGunfireGauntletController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

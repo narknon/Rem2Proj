@@ -15,7 +15,6 @@ public class HoudiniEngineRuntime : ModuleRules {
             "AudioMixer",
             "AudioPlatformConfiguration",
             "Chaos",
-            "ChaosCloth",
             "ClothingSystemRuntimeCommon",
             "ClothingSystemRuntimeInterface",
             "Constraints",

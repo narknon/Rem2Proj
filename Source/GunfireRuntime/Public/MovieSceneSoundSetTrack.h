@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class GUNFIRERUNTIME_API UMovieSceneSoundSetTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class GUNFIRERUNTIME_API UMovieSceneSoundSetTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

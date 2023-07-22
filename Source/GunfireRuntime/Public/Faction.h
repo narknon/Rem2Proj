@@ -23,10 +23,10 @@ public:
     
     UFaction();
     UFUNCTION(BlueprintCallable, BlueprintPure)
-    static EAffiliation GetAffiliationForActors(const AActor* Actor1, const AActor* Actor2) const;
+    static EAffiliation GetAffiliationForActors(const AActor* Actor1, const AActor* Actor2);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
-    static EAffiliation GetAffiliation(TSubclassOf<UFaction> Faction1, TSubclassOf<UFaction> Faction2) const;
+    static EAffiliation GetAffiliation(TSubclassOf<UFaction> Faction1, TSubclassOf<UFaction> Faction2);
     
 };
 

@@ -15,7 +15,6 @@ public class FSR2TemporalUpscaling : ModuleRules {
             "AudioMixer",
             "AudioPlatformConfiguration",
             "Chaos",
-            "ChaosCloth",
             "ClothingSystemRuntimeCommon",
             "ClothingSystemRuntimeInterface",
             "Constraints",

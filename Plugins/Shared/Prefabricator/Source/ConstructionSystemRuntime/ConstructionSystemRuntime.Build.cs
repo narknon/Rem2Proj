@@ -15,7 +15,6 @@ public class ConstructionSystemRuntime : ModuleRules {
             "AudioMixer",
             "AudioPlatformConfiguration",
             "Chaos",
-            "ChaosCloth",
             "ClothingSystemRuntimeCommon",
             "ClothingSystemRuntimeInterface",
             "Constraints",

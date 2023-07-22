@@ -43,6 +43,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<UActionBase> Action;
     
-    UDamageClass();
+    GUNFIRERUNTIME_API UDamageClass();
 };
 

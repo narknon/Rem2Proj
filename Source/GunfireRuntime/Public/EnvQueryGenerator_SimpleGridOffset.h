@@ -8,7 +8,7 @@ UCLASS(Blueprintable, EditInlineNew)
 class GUNFIRERUNTIME_API UEnvQueryGenerator_SimpleGridOffset : public UEnvQueryGenerator_SimpleGrid {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     FAIDataProviderFloatValue ZOffset;
     
     UEnvQueryGenerator_SimpleGridOffset();

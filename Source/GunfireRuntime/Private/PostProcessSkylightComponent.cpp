@@ -9,3 +9,17 @@ UPostProcessSkylightComponent::UPostProcessSkylightComponent() {
     this->SkyLight = NULL;
 }
 
+void UPostProcessSkylightComponent::OnRegister()
+{
+
+}
+
+void UPostProcessSkylightComponent::OnUnregister()
+{
+
+}
+
+void UPostProcessSkylightComponent::Serialize(FArchive& Ar)
+{
+
+}

@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "ESettingsPlatforms.generated.h"
 
-UENUM(BlueprintType)
-enum class ESettingsPlatforms : uint8 {
+UENUM()
+enum class ESettingsPlatforms : int8 {
     PC = 0x1,
     XboxSeriesX,
     XboxSeriesS = 0x4,

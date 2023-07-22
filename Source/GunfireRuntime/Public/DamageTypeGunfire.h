@@ -158,10 +158,10 @@ public:
     
     UDamageTypeGunfire();
     UFUNCTION(BlueprintCallable, BlueprintPure=false)
-    static TSubclassOf<UDamageClass> GetDamageSubclass(TSubclassOf<UDamageType> DamageType, TSubclassOf<UDamageClass> ParentClass) const;
+    static TSubclassOf<UDamageClass> GetDamageSubclass(TSubclassOf<UDamageType> DamageType, TSubclassOf<UDamageClass> ParentClass);
     
     UFUNCTION(BlueprintCallable, BlueprintPure=false)
-    static TArray<TSubclassOf<UDamageClass>> GetDamageClassesForType(TSubclassOf<UDamageType> DamageType) const;
+    static TArray<TSubclassOf<UDamageClass>> GetDamageClassesForType(TSubclassOf<UDamageType> DamageType);
     
 };
 

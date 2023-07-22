@@ -10,7 +10,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable, MinimalAPI)
-class UMovieSceneEventTreeTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class UMovieSceneEventTreeTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "ETileFlags.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class ETileFlags : uint8 {
     AllowSpawns = 0x1,
     AllowQuests,
