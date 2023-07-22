@@ -52,3 +52,9 @@ UExplorableMinimapManager::UExplorableMinimapManager() {
     this->ExplorableMinimapModel = NULL;
 }
 
+TStatId UExplorableMinimapManager::GetStatId() const
+{
+    TStatId statid = TStatId();
+    return statid;
+}
+

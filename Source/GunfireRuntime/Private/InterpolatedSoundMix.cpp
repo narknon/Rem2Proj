@@ -17,14 +17,7 @@ UInterpolatedSoundMix::UInterpolatedSoundMix() {
 
 void UInterpolatedSoundMix::BeginDestroy()
 {
-    if (!GExitPurge && GEngine)
-    {
-        FAudioDeviceManager* AudioDeviceManager = GEngine->GetAudioDeviceManager();
-        if (AudioDeviceManager)
-        {
-            AudioDeviceManager->RemoveSoundMix(this);
-        }
-    }
+    UObject::BeginDestroy();
 }
 
 FString UInterpolatedSoundMix::GetDesc( void )
