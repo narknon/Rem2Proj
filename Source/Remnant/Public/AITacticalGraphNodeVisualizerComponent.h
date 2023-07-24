@@ -9,4 +9,3 @@ class REMNANT_API UAITacticalGraphNodeVisualizerComponent : public UActorCompone
 public:
     UAITacticalGraphNodeVisualizerComponent();
 };
-

@@ -135,8 +135,8 @@ obj/
 
 # Ignore any saved local files
 /Saved/*
-!/Saved/Logs
-!/Saved/Logs/keep.txt
+/Saved/Logs/*
+
 
 
 
@@ -148,9 +148,8 @@ obj/
 # Explcitly ignore Mac DS_Store files, regardless of where they are
 .DS_Store
 
-Windows/Manifest_NonUFSFiles_Win64.txt
-Windows/Manifest_DebugFiles_Win64.txt
-Windows/Engine/Content/SlateDebug/Fonts/LastResort.tps
+Windows/*
+Build/Windows/*
 Platforms/HoloLens/Config/HoloLensEngine.ini
 Binaries/Win64/tbb12.dll
 Binaries/Win64/tbb.dll
