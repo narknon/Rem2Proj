@@ -78,6 +78,7 @@
 !*.config
 !*.version
 !.git*
+!.uasset
 
 # Projects and makefiles
 !*.cmake
